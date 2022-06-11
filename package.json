@@ -1,0 +1,28 @@
+{
+  "name": "alexa-skill-sample-nodejs-express",
+  "version": "1.0.0",
+  "description": "Simple Hello World Skill built using alexa-skills-kit-sdk-for-nodejs. This skill demonstrates the use of Express server for handling Alexa requests.",
+  "main": "lambda/index.js",
+  "scripts": {
+    "start": "node lambda/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa",
+    "skills",
+    "kit",
+    "sdk",
+    "nodejs",
+    "express",
+    "server",
+    "http"
+  ],
+  "author": "Michael Gloger",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=4.2.0"
+  },
+  "dependencies": {
+    "ask-sdk-core": "^2.12.1"
+  }
+}
