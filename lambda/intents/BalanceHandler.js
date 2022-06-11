@@ -12,8 +12,7 @@ module.exports = {
       );
     },
     handle(handlerInput) {
-      console.log(handlerInput.request)
-      const accountType = handlerInput.request.intent.slots.account_type.value;
+      const accountType = handlerInput.requestEnvelope.request.intent.slots.account_type.value;
       let speakOutput = null;
       if (accountType === "savings") {
         speakOutput = "Your savings account balance is $300";
