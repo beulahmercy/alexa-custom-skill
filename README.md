@@ -9,3 +9,7 @@ Authenticate against the amazon account
 
 # update the asl-config.json
 Update the skill id and the stage
+
+# For more details
+Please refer the below medium site
+https://medium.com/@beulamercie/create-an-alexa-skill-and-host-the-custom-skill-as-a-web-service-e1abd3f40d89
